@@ -1,5 +1,5 @@
 import Container from "../Container/Container";
-
+import img from '../../assets/image/Logo.png';
 const Navber = () => {
     const menu = <>
         <li>
@@ -12,9 +12,9 @@ const Navber = () => {
     </>
 
   return (
-    <div>
+    <div className="bg-sky-300">
       <Container>
-        <div className="navbar bg-base-100">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -44,7 +44,7 @@ const Navber = () => {
                 {menu}
               </ul>
             </div>
-            <img src="" alt="" />
+            <img src={img} width='150' height='150' alt="" />
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
