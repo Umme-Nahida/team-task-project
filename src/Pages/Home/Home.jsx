@@ -1,8 +1,11 @@
+import Banner from "../banner/Banner";
+import PaymentService from "../PaymentService/PaymentService";
 
 const Home = () => {
     return (
         <div>
-            home
+            <Banner></Banner>
+            <PaymentService></PaymentService>
         </div>
     );
 };
