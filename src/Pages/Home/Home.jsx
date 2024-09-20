@@ -3,6 +3,7 @@ import CreditCard from "../CreditCard/CreditCard";
 import LogoSection from "../LogoSection/LogoSection";
 import MobileBanking from "../MobileBanking/MobileBanking";
 import PaymentService from "../PaymentService/PaymentService";
+import SecureTransaction from "../SecureTransection/SecureTransaction";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <LogoSection></LogoSection>
             <CreditCard></CreditCard>
             <MobileBanking></MobileBanking>
+            <SecureTransaction></SecureTransaction>
         </div>
     );
 };
