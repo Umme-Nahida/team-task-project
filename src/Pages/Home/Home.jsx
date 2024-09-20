@@ -10,8 +10,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            {/* <Banner></Banner>
-            <PaymentService></PaymentService> */}
+            <PaymentService></PaymentService>
             <div className="hidden lg:block p-20">
             <LogoSection></LogoSection>
             </div>

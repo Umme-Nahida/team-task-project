@@ -29,8 +29,8 @@ const Banner = () => {
               </div>
             </div>
             {/* img */}
-            <div className="md:w-3/5">
-              <img src={img} className="w-full" alt="" />
+            <div className="w-full md:w-3/5">
+              <img src={img} className="w-full " alt="" />
             </div>
           </div>
         </Container>
