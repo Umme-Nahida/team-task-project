@@ -6,7 +6,7 @@ import img5 from "../../assets/image/Ellipse 3 (3).png";
 
 const Review = () => {
   return (
-    <div className="bg-gradient-to-r from-[#5C0E62] to-[#00B5D0] py-10 px-5 lg:py-72 relative ">
+    <div className="bg-gradient-to-r from-[#5C0E62] to-[#00B5D0] py-20 px-5 lg:py-72 relative" style={{clipPath: 'polygon(0 16%, 100% 0%, 100% 100%, 0% 100%)' }}>
       <div className=" mx-auto flex flex-col lg:flex-row items-center gap-x-10">
         {/* content */}
         <div className="space-y-3 lg:ml-20 w-full lg:w-2/5 text-center lg:text-left">
@@ -36,6 +36,7 @@ const Review = () => {
 
           {/* another img added here */}
           <div className="hidden lg:block">
+            <div className="absolute top-0 right-0 bg-[#E4D6EE] bg-opacity-25 w-96 h-[500px]" style={{clipPath:'polygon(100% 0%, 100% 50%, 100% 100%, 71% 79%, 61% 48%, 70% 18%)'}} >ho</div>
             <img src={img2} className="w-20 absolute top-10 right-24" alt="" />
             <img src={img3} className="w-20 absolute top-44 right-28" alt="" />
             <img src={img5} className="w-20 absolute top-80 right-16" alt="" />
