@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Navber from "../Shares/Navber/Navber";
+import Footer from "../Shares/Footer/Footer";
 
 const Layout = () => {
     return (
         <div>
-            <Navber></Navber>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
