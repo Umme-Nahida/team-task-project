@@ -27,8 +27,8 @@ const Navber = () => {
     <div className="">
       <Container>
         <div className="navbar">
-          <div className="navbar-start flex flex-row-reverse items-center justify-between w-full">
-            <div className="dropdown dropdown-end">
+          <div className="navbar-start flex  flex-row-reverse lg:flex-row items-center lg:items-start justify-between w-full">
+            <div className="dropdown dropdown-end lg:hidden">
               <div onClick={()=> setOpen(!open)} tabIndex={0} role="button" className="btn m-1">
                 <FiMenu></FiMenu>
               </div>
