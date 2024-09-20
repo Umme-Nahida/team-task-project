@@ -24,7 +24,9 @@ const Banner = () => {
                 in the world
               </p>
               <button className="btn py-2 px-8 rounded-none">Start Now</button>
+              <div className="lg:hidden">
               <LogoSection></LogoSection>
+              </div>
             </div>
             {/* img */}
             <div className="md:w-3/5">
